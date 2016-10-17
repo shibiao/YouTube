@@ -7,8 +7,8 @@ embed YouTube Player
 ####Only add these codes on your project:
 #####//player param(播放器参数可以参考)https://developers.google.com/youtube/player_parameters
 
-`
-NSDictionary *playerVars = @{
+
+`NSDictionary *playerVars = @{
                                  //player param(播放器参数可以参考)https://developers.google.com/youtube/player_parameters
                                  @"controls" : @2,
                                  @"playsinline" : @1,
@@ -21,6 +21,5 @@ NSDictionary *playerVars = @{
     
     self.player.delegate=self;
     //    [self.playerView loadWithPlaylistId:@"PLEE58C6029A8A6ADE" playerVars:playerVars];//playlist
-    [self.player loadWithVideoId:@"M7lc1UVf-VE" playerVars:playerVars];//single video
+    [self.player loadWithVideoId:@"M7lc1UVf-VE" playerVars:playerVars];//single video `
 
-`
