@@ -1,14 +1,18 @@
 # YouTube
 embed YouTube Player
+***
 ###在项目中嵌入YouTube Player
-![1](https://github.com/shibiao/YouTube/blob/master/111.png)
-![2](https://github.com/shibiao/YouTube/blob/master/222.png)
+
+![111](https://github.com/shibiao/YouTube/blob/master/111.png)
+
+![222](https://github.com/shibiao/YouTube/blob/master/222.png)
+
 ####How to use it ?
 ####Only add these codes on your project:
 #####//player param(播放器参数可以参考)https://developers.google.com/youtube/player_parameters
-
-
-`NSDictionary *playerVars = @{
+***
+```
+NSDictionary *playerVars = @{
                                  //player param(播放器参数可以参考)https://developers.google.com/youtube/player_parameters
                                  @"controls" : @2,
                                  @"playsinline" : @1,
@@ -22,4 +26,4 @@ embed YouTube Player
     self.player.delegate=self;
     //    [self.playerView loadWithPlaylistId:@"PLEE58C6029A8A6ADE" playerVars:playerVars];//playlist
     [self.player loadWithVideoId:@"M7lc1UVf-VE" playerVars:playerVars];//single video `
-
+```
